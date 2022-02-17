@@ -24,8 +24,8 @@
 //System.Console.WriteLine("你好! " + age + "歲的" + Name);
 
 System.Console.Write("請輸入第一個數字: ");
-int first = System.Convert.ToInt32(System.Console.ReadLine());
+double first = System.Convert.ToDouble(System.Console.ReadLine());
 System.Console.Write("請輸入第二個數字: ");
-int second = System.Convert.ToInt32(System.Console.ReadLine());
-int ans = first + second;
+double second = System.Convert.ToDouble(System.Console.ReadLine());
+double ans = first + second;
 System.Console.WriteLine("答案是 " + ans);

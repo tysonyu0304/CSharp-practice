@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\CSharp-practice\\C#.csproj": {}
+    "e:\\C#\\CSharp-practice\\C#.csproj": {}
   },
   "projects": {
-    "E:\\C#\\CSharp-practice\\C#.csproj": {
+    "e:\\C#\\CSharp-practice\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\CSharp-practice\\C#.csproj",
+        "projectUniqueName": "e:\\C#\\CSharp-practice\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "E:\\C#\\CSharp-practice\\C#.csproj",
+        "projectPath": "e:\\C#\\CSharp-practice\\C#.csproj",
         "packagesPath": "C:\\Users\\taiyo\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\CSharp-practice\\obj\\",
+        "outputPath": "e:\\C#\\CSharp-practice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taiyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
