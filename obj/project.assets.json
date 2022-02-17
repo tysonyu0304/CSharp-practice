@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\C#.csproj",
+      "projectUniqueName": "E:\\C#\\CSharp-practice\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "E:\\C#\\C#.csproj",
+      "projectPath": "E:\\C#\\CSharp-practice\\C#.csproj",
       "packagesPath": "C:\\Users\\taiyo\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\obj\\",
+      "outputPath": "E:\\C#\\CSharp-practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\taiyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
