@@ -29,3 +29,4 @@ System.Console.Write("請輸入第二個數字: ");
 double second = System.Convert.ToDouble(System.Console.ReadLine());
 double ans = first + second;
 System.Console.WriteLine("答案是 " + ans);
+Console.WriteLine("謝謝");
