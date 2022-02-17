@@ -14,3 +14,11 @@ System.Console.WriteLine(System.Math.Sqrt(8)); // 開根號
 System.Console.WriteLine(System.Math.Max(2,78)); 
 System.Console.WriteLine(System.Math.Min(2,78)); // 兩數比大小
 System.Console.WriteLine(System.Math.Round(55.5)); // 小數的四捨五入
+
+// 取得輸入
+
+System.Console.Write("請輸入您的名字: ");
+string Name = System.Console.ReadLine();
+System.Console.Write("請輸入您的年紀: ");
+string age = System.Console.ReadLine();
+System.Console.WriteLine("你好! " + age + "歲的" + Name);
