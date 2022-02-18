@@ -1,0 +1,15 @@
+E:\C#\CSharp-practice\practice\practice\bin\Debug\net6.0\practice.exe
+E:\C#\CSharp-practice\practice\practice\bin\Debug\net6.0\practice.deps.json
+E:\C#\CSharp-practice\practice\practice\bin\Debug\net6.0\practice.runtimeconfig.json
+E:\C#\CSharp-practice\practice\practice\bin\Debug\net6.0\practice.dll
+E:\C#\CSharp-practice\practice\practice\bin\Debug\net6.0\practice.pdb
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.csproj.AssemblyReference.cache
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.AssemblyInfoInputs.cache
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.AssemblyInfo.cs
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.csproj.CoreCompileInputs.cache
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.dll
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\refint\practice.dll
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.pdb
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\practice.genruntimeconfig.cache
+E:\C#\CSharp-practice\practice\practice\obj\Debug\net6.0\ref\practice.dll
