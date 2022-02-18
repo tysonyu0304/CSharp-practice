@@ -38,15 +38,13 @@ Console.WriteLine("謝謝");
 int[] height = { 150, 160, 170, 130, 120 };
 Console.WriteLine(height[0]);
 
-//string[] name = { "kevin", "amy" };
+string[] name = { "kevin", "amy" };
 Console.WriteLine(name[0]);
 
-//string[] phones = new string[2];
+string[] phones = new string[2];
 phones[0] = "0123456789";
 Console.WriteLine(phones[0]);
 
-
-*/
 // if 判斷句
 
 bool hungry = true;
@@ -60,3 +58,17 @@ else
 {
     Console.WriteLine("去休息");
 }
+
+bool BOOL2 = false;
+Console.WriteLine("你餓嗎 Y/N");
+string input2 = Console.ReadLine();
+if (!BOOL2 || !input2.ToUpper().Contains('Y'))
+{
+    Console.WriteLine("去吃飯");
+}
+else
+{
+    Console.WriteLine("去休息");
+}
+
+*/
