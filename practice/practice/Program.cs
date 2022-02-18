@@ -7,6 +7,7 @@ System.Console.WriteLine(name.Contains('n')); // 看該字元或字串在哪個�
 System.Console.WriteLine(name[name.IndexOf('l')]); // []是指定位置 InDexOf()是找出位置
 System.Console.WriteLine(name.ToUpper() + ' ' + name.ToLower()); // 大寫和小寫
 System.Console.WriteLine(name.Substring(1,1)); // 分割字串 (位置,往後幾位)
+System.Console.WriteLine(name.Length); // 顯示字串的長度
 
 // 數字的方法如下
 
