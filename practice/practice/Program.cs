@@ -125,7 +125,6 @@ do
 }
 while (num < 200);
 
-*/
 // 猜數字遊戲
 
 Console.WriteLine("歡迎來到數字猜猜樂");
@@ -163,3 +162,7 @@ if (times == 0)
 {
     Console.WriteLine("\n好可惜失敗了 下次加油吧");
 }
+
+*/
+// for 迴圈
+
