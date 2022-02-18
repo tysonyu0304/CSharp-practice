@@ -128,7 +128,8 @@ while (num < 200);
 // 猜數字遊戲
 
 Console.WriteLine("歡迎來到數字猜猜樂");
-int ans = 87, first = 0, second = 100, times = 5;
+int first = 0, second = 100;
+const int ans=87, times = 5;
 
 do
 {
