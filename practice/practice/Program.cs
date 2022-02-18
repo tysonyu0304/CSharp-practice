@@ -25,6 +25,8 @@ System.Console.Write("請輸入您的年紀: ");
 string age = System.Console.ReadLine();
 System.Console.WriteLine("你好! " + age + "歲的" + Name);
 
+// 加法計算機
+
 System.Console.Write("請輸入第一個數字: ");
 double first = System.Convert.ToDouble(System.Console.ReadLine());
 System.Console.Write("請輸入第二個數字: ");
@@ -71,4 +73,93 @@ else
     Console.WriteLine("去休息");
 }
 
+// 進階計算機
+
+Console.Write("請輸入第一個數字: ");
+double First = Convert.ToDouble(Console.ReadLine());
+Console.Write("請輸入要做的運算( +, -, *, / ): ");
+string Mark = Console.ReadLine();
+Console.Write("請輸入第二個數字: ");
+double Second = Convert.ToDouble(Console.ReadLine());
+
+if (Mark.Contains('+'))
+{
+    Console.Write("答案是 ");
+    Console.WriteLine(First + Second);
+}
+else if (Mark.Contains('-'))
+{
+    Console.Write("答案是 ");
+    Console.WriteLine(First - Second);
+}
+else if (Mark.Contains('*'))
+{
+    Console.Write("答案是 ");
+    Console.WriteLine(First * Second);
+}
+else if (Mark.Contains('/'))
+{
+    Console.Write("答案是 ");
+    Console.WriteLine(First / Second);
+}
+else
+{
+    Console.WriteLine("不合法的運算符號");
+}
+
+// while 迴圈
+
+int num = 1;
+while (num <= 100)
+{
+    Console.Write(Convert.ToString(num) + ' ');
+    num ++;
+}
+
+
+
+do
+{
+    Console.WriteLine(Convert.ToString(num) + ' ');
+    num++;
+}
+while (num < 200);
+
 */
+// 猜數字遊戲
+
+Console.WriteLine("歡迎來到數字猜猜樂");
+int ans = 87, first = 0, second = 100, times = 5;
+
+do
+{
+    Console.WriteLine("目前數字介於" + Convert.ToString(first) + "到" + Convert.ToString(second));
+    Console.WriteLine("您目前還剩" + Convert.ToString(times) + "次可猜");
+    Console.Write("請輸入要猜的數字: ");
+    int input = Convert.ToInt32(Console.ReadLine());
+    if (input > ans && input < second)
+    {
+        second = input;
+        Console.WriteLine("您猜的數字比答案大喔");
+    }
+    else if (input < ans && input > first)
+    {
+        first = input;
+        Console.WriteLine("您猜的數字比答案小喔");
+    }
+    else if (input == ans)
+    {
+        Console.WriteLine("恭喜結束");
+        break;
+    }
+    else
+    {
+        Console.WriteLine("您猜的答案可能不在範圍內 或 不是數字");
+    }
+    times --;
+}
+while (times > 0);
+if (times == 0)
+{
+    Console.WriteLine("\n好可惜失敗了 下次加油吧");
+}
