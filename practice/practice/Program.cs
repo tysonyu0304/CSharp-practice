@@ -221,4 +221,20 @@ for (int i = 0; i < Nums2.GetLength(0); i++)
 
 */
 
-//
+// class & object 類別 & 物件
+//  請配合 Person.cs 一同服用
+
+Person person1 = new Person();
+person1.height = 165;
+person1.name = "name";
+person1.age = 17;
+
+Console.WriteLine("這個人的年紀是 " + Convert.ToString(person1.age));
+
+
+Person person2 = new Person();
+person2.height = 175;
+person2.name = "name2";
+person2.age = 17;
+
+Console.WriteLine("這個人的身高是 " + Convert.ToString(person2.height));
