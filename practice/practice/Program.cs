@@ -165,6 +165,60 @@ if (times == 0)
     Console.WriteLine("\n好可惜失敗了 下次加油吧");
 }
 
-*/
 // for 迴圈
 
+for (int i =5; i<10; i++)
+{
+    Console.WriteLine(i);
+}
+
+int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+for (int i = 0; i < nums.Length; i++)
+{
+    Console.WriteLine(nums[i]);
+}
+string name2 = "Kevin";
+for (int i = 0; i < name2.Length; i++)
+{
+    Console.WriteLine(name2[i]);
+}
+
+// 二維陣列
+
+// row 橫排
+// column 直排
+
+// [,] 是二維陣列 [,,] 是三維陣列 以此類推...
+//               三維陣列需要包三層的大括號 四維陣列需要包四層的大括號 ...
+
+int[,] Nums = { 
+    { 1, 2, 3 }, 
+    { 4, 5, 6 }, 
+    { 7, 8, 9 }
+};
+for (int i = 0; i < Nums.GetLength(0); i++)
+{
+    for (int j = 0; j < Nums.GetLength(1); j++)
+    {
+        Console.Write(Nums[i,j]);
+        Console.Write(' ');
+    }
+}
+Console.WriteLine(' ');
+int[,] Nums2 = {
+    { 1,2 },
+    { 3,4 },
+    { 5,6 },
+};
+for (int i = 0; i < Nums2.GetLength(0); i++)
+{
+    for (int j = 0; j < Nums2.GetLength(1); j++)
+    {
+        System.Console.Write(Nums2[i, j]);
+        Console.Write(' ');
+    }
+}
+
+*/
+
+//
