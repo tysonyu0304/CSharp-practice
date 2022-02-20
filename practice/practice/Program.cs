@@ -287,7 +287,7 @@ Console.WriteLine(add.add(person2.age, 2));
 
 
 // Main 方法
-// 這是程式的進入點 電腦會從這裡找到程式開始的第一行 如果你沒有用這個的話 系統會自動在後台處理
+// 這是程式的進入點 電腦會從這裡找到程式開始的第一行 如果你沒有用這個的話 C#會自動在後台處理
 
 namespace Program
 {
@@ -307,5 +307,6 @@ namespace Program
 
 using Constructor;
 
-Test Name = new Test(" 好耶!");
-Name.name = "Andy";
+Test Name = new Test("Andy",18);
+Console.WriteLine(Name.name);
+Console.WriteLine(Name.age);

@@ -72,10 +72,13 @@ namespace Constructor
     class Test
     {
         public string name;
+        public int age;
 
-        public Test(string QQ) // 前面class 的名字是Test 所以這裡的名字也要是Test
+        public Test(string Name, int age) // 前面class 的名字是Test 所以這裡的名字也要是Test
         {
-            Console.WriteLine("創建成功" + QQ);
+            name = Name;
+            this.age = age;
+            Console.WriteLine("創建成功");
         }
     }
 }
