@@ -9,6 +9,7 @@ System.Console.WriteLine(name.ToUpper() + ' ' + name.ToLower()); // 大寫和小
 System.Console.WriteLine(name.Substring(1,1)); // 分割字串 (位置,往後幾位)
 System.Console.WriteLine(name.Length); // 顯示字串的長度
 
+
 // 數字的方法如下
 
 System.Console.WriteLine(System.Math.Abs(-565)); // 取絕對值
@@ -18,6 +19,7 @@ System.Console.WriteLine(System.Math.Max(2,78));
 System.Console.WriteLine(System.Math.Min(2,78)); // 兩數比大小
 System.Console.WriteLine(System.Math.Round(55.5)); // 小數的四捨五入
 
+
 // 取得輸入
 
 System.Console.Write("請輸入您的名字: ");
@@ -25,6 +27,7 @@ string Name = System.Console.ReadLine();
 System.Console.Write("請輸入您的年紀: ");
 string age = System.Console.ReadLine();
 System.Console.WriteLine("你好! " + age + "歲的" + Name);
+
 
 // 加法計算機
 
@@ -35,6 +38,7 @@ double second = System.Convert.ToDouble(System.Console.ReadLine());
 double ans = first + second;
 System.Console.WriteLine("答案是 " + ans);
 Console.WriteLine("謝謝");
+
 
 // Array 陣列
 
@@ -47,6 +51,7 @@ Console.WriteLine(name[0]);
 string[] phones = new string[2];
 phones[0] = "0123456789";
 Console.WriteLine(phones[0]);
+
 
 // if 判斷句
 
@@ -73,6 +78,7 @@ else
 {
     Console.WriteLine("去休息");
 }
+
 
 // 進階計算機
 
@@ -125,6 +131,7 @@ do
     num++;
 }
 while (num < 200);
+
 
 // 猜數字遊戲
 
@@ -183,6 +190,7 @@ for (int i = 0; i < name2.Length; i++)
     Console.WriteLine(name2[i]);
 }
 
+
 // 二維陣列
 
 // row 橫排
@@ -219,7 +227,6 @@ for (int i = 0; i < Nums2.GetLength(0); i++)
     }
 }
 
-*/
 
 // class & object 類別 & 物件
 //  請配合 Person.cs 一同服用
@@ -238,3 +245,67 @@ person2.name = "name2";
 person2.age = 17;
 
 Console.WriteLine("這個人的身高是 " + Convert.ToString(person2.height));
+
+
+// namespace & using & method
+//  請配合 Person.cs 一同服用
+//  注意: 這裡的程式碼跟上面 "class & object" 的程式碼不能同時出現(因為class會衝突)
+
+using Character;
+using Character.QQ;
+using calculate;
+
+Persons person1 = new Persons();
+person1.weight = 80;
+person1.name = "name";
+person1.age = 17;
+person1.IsOldThan18();
+
+Console.WriteLine("這個人的年紀是 " + Convert.ToString(person1.age));
+
+
+Persons person2 = new Persons();
+person2.weight = 87;
+person2.name = "Kevin";
+person2.age = 19;
+person2.SayHi();
+if (person2.IsOldThan18())
+{
+    Console.WriteLine("true");
+}
+
+Console.WriteLine("這個人的體重是 " + Convert.ToString(person2.weight));
+
+QQ q1 = new QQ();
+q1.name = "haha";
+q1.SayQQ();
+
+Console.WriteLine(q1.name);
+
+number add = new number();
+Console.WriteLine(add.add(person2.age, 2));
+
+
+// Main 方法
+// 這是程式的進入點 電腦會從這裡找到程式開始的第一行 如果你沒有用這個的話 系統會自動在後台處理
+
+namespace Program
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+*/
+// Constructor 建構方法
+// 請配合 Person.cs 一同服用
+// 注意 建構函式的名字必須與類型的名字一致
+
+using Constructor;
+
+Test Name = new Test(" 好耶!");
+Name.name = "Andy";
