@@ -300,7 +300,7 @@ namespace Program
     }
 }
 
-*/
+
 // Constructor 建構方法
 // 請配合 Person.cs 一同服用
 // 注意 建構函式的名字必須與類型的名字一致
@@ -310,3 +310,49 @@ using Constructor;
 Test Name = new Test("Andy",18);
 Console.WriteLine(Name.name);
 Console.WriteLine(Name.age);
+
+
+// getter & setter
+// 請配合 Person.cs 一同服用
+
+using Character;
+
+video test1 = new video("好廢", "我", "廢片");
+video test2 = new video("真的廢", "你", "哈哈");
+
+Console.WriteLine(test1.Type);
+Console.WriteLine(test2.Type);
+
+
+// static attribute 靜態屬性
+// 請配合 Person.cs 一同服用
+
+using Character;
+
+video test1 = new video("好廢", "我", "廢片");
+video test2 = new video("真的廢", "你", "哈哈");
+
+Console.WriteLine(test1.Type);
+Console.WriteLine(test2.Type);
+Console.WriteLine(video.video_count);
+Console.WriteLine(test2.GetVideoCount());
+
+
+// static method & static class 靜態類別
+// 此方法所創建之類別是不需要宣告的
+// 請配合 Person.cs 一同服用
+
+using practice;
+
+Console.WriteLine(Math.Sqrt(36));
+Tool.SayHi();
+
+
+// inheritance 繼承
+// 請配合 Person.cs 一同服用
+
+using Character;
+
+Student student = new Student("Spica", 80, 160.9, "HCHS");
+student.SayHi();
+*/
